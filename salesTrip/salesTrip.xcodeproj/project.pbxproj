@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E192969A1C69333A0051A54B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19296991C69333A0051A54B /* AppDelegate.swift */; };
+		E192969C1C69333A0051A54B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E192969B1C69333A0051A54B /* ViewController.swift */; };
+		E192969F1C69333A0051A54B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E192969D1C69333A0051A54B /* Main.storyboard */; };
+		E19296A11C69333A0051A54B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19296A01C69333A0051A54B /* Assets.xcassets */; };
+		E19296A41C69333A0051A54B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19296A21C69333A0051A54B /* LaunchScreen.storyboard */; };
+		E19296B01C69339C0051A54B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19296AF1C69339C0051A54B /* ProfileViewController.swift */; };
+		E19296B41C6933C70051A54B /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19296B31C6933C70051A54B /* ScheduleViewController.swift */; };
+		E19296B61C6933E10051A54B /* ItemSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19296B51C6933E10051A54B /* ItemSelectionViewController.swift */; };
+		E19296B81C6933EC0051A54B /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19296B71C6933EC0051A54B /* ItemDetailViewController.swift */; };
+		E19296BA1C6934020051A54B /* HotelTransitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19296B91C6934020051A54B /* HotelTransitViewController.swift */; };
+		E19296BC1C69340B0051A54B /* ThingsToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19296BB1C69340B0051A54B /* ThingsToDoViewController.swift */; };
+		E19296BE1C6934DB0051A54B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19296BD1C6934DB0051A54B /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E19296961C69333A0051A54B /* salesTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = salesTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19296991C69333A0051A54B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E192969B1C69333A0051A54B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E192969E1C69333A0051A54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E19296A01C69333A0051A54B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E19296A31C69333A0051A54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E19296A51C69333A0051A54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19296AF1C69339C0051A54B /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E19296B31C6933C70051A54B /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		E19296B51C6933E10051A54B /* ItemSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemSelectionViewController.swift; sourceTree = "<group>"; };
+		E19296B71C6933EC0051A54B /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		E19296B91C6934020051A54B /* HotelTransitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelTransitViewController.swift; sourceTree = "<group>"; };
+		E19296BB1C69340B0051A54B /* ThingsToDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingsToDoViewController.swift; sourceTree = "<group>"; };
+		E19296BD1C6934DB0051A54B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E19296931C69333A0051A54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E192968D1C69333A0051A54B = {
+			isa = PBXGroup;
+			children = (
+				E19296981C69333A0051A54B /* salesTrip */,
+				E19296971C69333A0051A54B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E19296971C69333A0051A54B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E19296961C69333A0051A54B /* salesTrip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E19296981C69333A0051A54B /* salesTrip */ = {
+			isa = PBXGroup;
+			children = (
+				E19296AF1C69339C0051A54B /* ProfileViewController.swift */,
+				E19296B31C6933C70051A54B /* ScheduleViewController.swift */,
+				E19296B51C6933E10051A54B /* ItemSelectionViewController.swift */,
+				E19296B71C6933EC0051A54B /* ItemDetailViewController.swift */,
+				E19296B91C6934020051A54B /* HotelTransitViewController.swift */,
+				E19296BB1C69340B0051A54B /* ThingsToDoViewController.swift */,
+				E19296991C69333A0051A54B /* AppDelegate.swift */,
+				E192969B1C69333A0051A54B /* ViewController.swift */,
+				E192969D1C69333A0051A54B /* Main.storyboard */,
+				E19296BD1C6934DB0051A54B /* LoginViewController.swift */,
+				E19296A01C69333A0051A54B /* Assets.xcassets */,
+				E19296A21C69333A0051A54B /* LaunchScreen.storyboard */,
+				E19296A51C69333A0051A54B /* Info.plist */,
+			);
+			path = salesTrip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E19296951C69333A0051A54B /* salesTrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19296A81C69333A0051A54B /* Build configuration list for PBXNativeTarget "salesTrip" */;
+			buildPhases = (
+				E19296921C69333A0051A54B /* Sources */,
+				E19296931C69333A0051A54B /* Frameworks */,
+				E19296941C69333A0051A54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = salesTrip;
+			productName = salesTrip;
+			productReference = E19296961C69333A0051A54B /* salesTrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E192968E1C69333A0051A54B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Nathan Guy";
+				TargetAttributes = {
+					E19296951C69333A0051A54B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = K92NU427FJ;
+					};
+				};
+			};
+			buildConfigurationList = E19296911C69333A0051A54B /* Build configuration list for PBXProject "salesTrip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E192968D1C69333A0051A54B;
+			productRefGroup = E19296971C69333A0051A54B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E19296951C69333A0051A54B /* salesTrip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E19296941C69333A0051A54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19296A41C69333A0051A54B /* LaunchScreen.storyboard in Resources */,
+				E19296A11C69333A0051A54B /* Assets.xcassets in Resources */,
+				E192969F1C69333A0051A54B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E19296921C69333A0051A54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19296BE1C6934DB0051A54B /* LoginViewController.swift in Sources */,
+				E192969C1C69333A0051A54B /* ViewController.swift in Sources */,
+				E192969A1C69333A0051A54B /* AppDelegate.swift in Sources */,
+				E19296B81C6933EC0051A54B /* ItemDetailViewController.swift in Sources */,
+				E19296BC1C69340B0051A54B /* ThingsToDoViewController.swift in Sources */,
+				E19296B01C69339C0051A54B /* ProfileViewController.swift in Sources */,
+				E19296BA1C6934020051A54B /* HotelTransitViewController.swift in Sources */,
+				E19296B41C6933C70051A54B /* ScheduleViewController.swift in Sources */,
+				E19296B61C6933E10051A54B /* ItemSelectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E192969D1C69333A0051A54B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E192969E1C69333A0051A54B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E19296A21C69333A0051A54B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E19296A31C69333A0051A54B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E19296A61C69333A0051A54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E19296A71C69333A0051A54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E19296A91C69333A0051A54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = salesTrip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atlanticbay.salesTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E19296AA1C69333A0051A54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = salesTrip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atlanticbay.salesTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E19296911C69333A0051A54B /* Build configuration list for PBXProject "salesTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19296A61C69333A0051A54B /* Debug */,
+				E19296A71C69333A0051A54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19296A81C69333A0051A54B /* Build configuration list for PBXNativeTarget "salesTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19296A91C69333A0051A54B /* Debug */,
+				E19296AA1C69333A0051A54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E192968E1C69333A0051A54B /* Project object */;
+}
