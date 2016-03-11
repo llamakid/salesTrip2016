@@ -7,13 +7,26 @@
 //
 
 import UIKit
+import Parse
 
 class ProfileViewController: UIViewController {
 
+    @IBOutlet weak var userNameLabel: UILabel!
+    
+    @IBOutlet weak var profileScrollView: UIScrollView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        profileScrollView.contentSize.height = 670
+        
+        // Show the current visitor's username
+        if let pUserName = PFUser.currentUser()?["FirstName"] as? String {
+            self.userNameLabel.text = pUserName
+        }
     }
 
     override func didReceiveMemoryWarning() {
